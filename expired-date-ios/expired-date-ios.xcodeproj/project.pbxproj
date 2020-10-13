@@ -15,6 +15,10 @@
 		52E91ED0253429CE002AD265 /* expired_date_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52E91ECE253429CE002AD265 /* expired_date_ios.xcdatamodeld */; };
 		52E91EDB253429CE002AD265 /* expired_date_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E91EDA253429CE002AD265 /* expired_date_iosTests.swift */; };
 		52E91EE6253429CE002AD265 /* expired_date_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E91EE5253429CE002AD265 /* expired_date_iosUITests.swift */; };
+		52E91F132535269F002AD265 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E91F122535269F002AD265 /* Home.swift */; };
+		52E91F1B253526C9002AD265 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E91F1A253526C9002AD265 /* HomeViewModel.swift */; };
+		52E91F2025352700002AD265 /* NewFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E91F1F25352700002AD265 /* NewFoodView.swift */; };
+		52E91F2525352719002AD265 /* ExpiredDateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E91F2425352719002AD265 /* ExpiredDateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		52E91EE1253429CE002AD265 /* expired-date-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "expired-date-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E91EE5253429CE002AD265 /* expired_date_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expired_date_iosUITests.swift; sourceTree = "<group>"; };
 		52E91EE7253429CE002AD265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E91F122535269F002AD265 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		52E91F1A253526C9002AD265 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		52E91F1F25352700002AD265 /* NewFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFoodView.swift; sourceTree = "<group>"; };
+		52E91F2425352719002AD265 /* ExpiredDateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiredDateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		52E91EC2253429C7002AD265 /* expired-date-ios */ = {
 			isa = PBXGroup;
 			children = (
+				52E91F112535267E002AD265 /* Views */,
+				52E91F1025352675002AD265 /* ViewModels */,
 				52E91EC3253429C7002AD265 /* expired_date_iosApp.swift */,
 				52E91EC5253429C7002AD265 /* ContentView.swift */,
 				52E91EC7253429CE002AD265 /* Assets.xcassets */,
@@ -134,6 +144,24 @@
 				52E91EE7253429CE002AD265 /* Info.plist */,
 			);
 			path = "expired-date-iosUITests";
+			sourceTree = "<group>";
+		};
+		52E91F1025352675002AD265 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52E91F1A253526C9002AD265 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52E91F112535267E002AD265 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52E91F122535269F002AD265 /* Home.swift */,
+				52E91F1F25352700002AD265 /* NewFoodView.swift */,
+				52E91F2425352719002AD265 /* ExpiredDateButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E91ECD253429CE002AD265 /* Persistence.swift in Sources */,
+				52E91F1B253526C9002AD265 /* HomeViewModel.swift in Sources */,
 				52E91ED0253429CE002AD265 /* expired_date_ios.xcdatamodeld in Sources */,
+				52E91F132535269F002AD265 /* Home.swift in Sources */,
 				52E91EC6253429C7002AD265 /* ContentView.swift in Sources */,
+				52E91F2525352719002AD265 /* ExpiredDateButton.swift in Sources */,
 				52E91EC4253429C7002AD265 /* expired_date_iosApp.swift in Sources */,
+				52E91F2025352700002AD265 /* NewFoodView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
